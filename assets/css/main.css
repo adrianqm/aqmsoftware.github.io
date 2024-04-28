@@ -168,6 +168,7 @@ textarea {
 
 html {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
 *,
@@ -2226,6 +2227,7 @@ ul.actions.special {
 
 .icon.brands:before {
 	font-family: 'Font Awesome 5 Brands';
+	margin-right: 0.5rem;
 }
 
 /* Box */
@@ -2670,6 +2672,24 @@ ul.actions.special {
 #footer button.style2:active,
 #footer .button.style2:active {
 	box-shadow: inset 0px 0px 2px 0px rgba(255, 255, 255, 0.75);
+}
+
+#footer input[type="button"].style4,
+#footer input[type="submit"].style4,
+#footer input[type="reset"].style4,
+#footer button.style4,
+#footer .button.style4 {
+	color: #333;
+	background: #f3f3f3 url("images/overlay.png");
+}
+
+#footer input[type="button"].style4:hover,
+#footer input[type="submit"].style4:hover,
+#footer input[type="reset"].style4:hover,
+#footer button.style4:hover,
+#footer .button.style4:hover {
+	color: #333;
+	background: #fff url("images/overlay.png");
 }
 
 #footer .title {
